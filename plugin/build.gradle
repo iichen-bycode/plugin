@@ -2,6 +2,7 @@ plugins {
     id 'groovy'
     id 'maven-publish'
 }
+
 dependencies {
     //gradle sdk
     implementation gradleApi()
@@ -27,3 +28,4 @@ publishing {
         }
     }
 }
+
