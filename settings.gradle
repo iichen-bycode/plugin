@@ -4,29 +4,24 @@ pluginManagement {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
-        maven {
-            url "https://maven.vmos.pro"
-            credentials {
-                username 'hangzhoushubao'
-                password 'j1p4sm5A'
-            }
-        }
+
     }
 }
 dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
-        maven {
-            url "https://maven.vmos.pro"
-            credentials {
-                username 'hangzhoushubao'
-                password 'j1p4sm5A'
-            }
-        }
+//        maven {
+//            url "https://maven.vmos.pro"
+//            credentials {
+//                username 'hangzhoushubao'
+//                password 'j1p4sm5A'
+//            }
+//        }
     }
 }
 rootProject.name = "shubao"
 include ':app'
-include ':plugin'
+include ':shubao'

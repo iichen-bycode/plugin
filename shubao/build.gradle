@@ -1,0 +1,43 @@
+plugins {
+    id 'java-library'
+    id 'org.jetbrains.kotlin.jvm'
+    id 'maven-publish'
+}
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://maven.vmos.pro"
+            credentials {
+                username = 'hangzhoushubao'
+                password = 'j1p4sm5A'
+            }
+        }
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation gradleApi() // 必须的gradle依赖
+    implementation 'com.vmos:vmos-build-gradle-plugin:1.2.9-beta01'
+}
+
+publishing {//然后进行发布配置
+    publications {
+        //gradle-plugins下的properties文件名是 module的gradle中配置 如： id '文件名称'
+
+        // 这里会在classpath中使用
+        iichenChannelPlugin(MavenPublication) {
+            from components.java // 这个命令来自java
+            groupId = 'com.shubao' //插件包名，在此插件被引用的时候必须写成一摸一样
+            artifactId = 'shubao-build-gradle-plugin' //插件名，在此插件被引用的时候必须写成一摸一样
+            version = '1.0.0'//插件版本号
+        }
+    }
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
