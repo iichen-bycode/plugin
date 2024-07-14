@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.material:material:1.11.0@aar">
     <ANNOTATIONS>
-      <root url="jar://E:/Gradle/caches/transforms-3/260a7b4dd8cc80133c7f65efaa823ec1/transformed/material-1.11.0/annotations.zip!/" />
+      <root url="jar://E:/Gradle/caches/transforms-3/18cb6ddfa8c56c9e24117168d57de500/transformed/material-1.11.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://E:/Gradle/caches/transforms-3/260a7b4dd8cc80133c7f65efaa823ec1/transformed/material-1.11.0/jars/classes.jar!/" />
-      <root url="file://E:/Gradle/caches/transforms-3/260a7b4dd8cc80133c7f65efaa823ec1/transformed/material-1.11.0/res" />
-      <root url="file://E:/Gradle/caches/transforms-3/260a7b4dd8cc80133c7f65efaa823ec1/transformed/material-1.11.0/AndroidManifest.xml" />
+      <root url="file://E:/Gradle/caches/transforms-3/18cb6ddfa8c56c9e24117168d57de500/transformed/material-1.11.0/AndroidManifest.xml" />
+      <root url="file://E:/Gradle/caches/transforms-3/18cb6ddfa8c56c9e24117168d57de500/transformed/material-1.11.0/res" />
+      <root url="jar://E:/Gradle/caches/transforms-3/18cb6ddfa8c56c9e24117168d57de500/transformed/material-1.11.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

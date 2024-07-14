@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.core:core:1.9.0@aar">
     <ANNOTATIONS>
-      <root url="jar://E:/Gradle/caches/transforms-3/a443bacdd1ec174a8f8fa8b287c92fc4/transformed/core-1.9.0/annotations.zip!/" />
+      <root url="jar://E:/Gradle/caches/transforms-3/6acdebdc476a857fcf9db0266bb6936c/transformed/core-1.9.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://E:/Gradle/caches/transforms-3/a443bacdd1ec174a8f8fa8b287c92fc4/transformed/core-1.9.0/jars/classes.jar!/" />
-      <root url="file://E:/Gradle/caches/transforms-3/a443bacdd1ec174a8f8fa8b287c92fc4/transformed/core-1.9.0/res" />
-      <root url="file://E:/Gradle/caches/transforms-3/a443bacdd1ec174a8f8fa8b287c92fc4/transformed/core-1.9.0/AndroidManifest.xml" />
+      <root url="jar://E:/Gradle/caches/transforms-3/6acdebdc476a857fcf9db0266bb6936c/transformed/core-1.9.0/jars/classes.jar!/" />
+      <root url="file://E:/Gradle/caches/transforms-3/6acdebdc476a857fcf9db0266bb6936c/transformed/core-1.9.0/res" />
+      <root url="file://E:/Gradle/caches/transforms-3/6acdebdc476a857fcf9db0266bb6936c/transformed/core-1.9.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
