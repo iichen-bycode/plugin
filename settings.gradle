@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven {
+            url "https://maven.vmos.pro"
+            credentials {
+                username 'hangzhoushubao'
+                password 'j1p4sm5A'
+            }
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://maven.vmos.pro"
+            credentials {
+                username 'hangzhoushubao'
+                password 'j1p4sm5A'
+            }
+        }
+    }
+}
+rootProject.name = "shubao"
+include ':app'
+include ':plugin'
