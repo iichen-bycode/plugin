@@ -23,5 +23,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "shubao"
-include ':app'
 include ':shubao'

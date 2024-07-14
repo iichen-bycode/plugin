@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.jvm'
     id 'maven-publish'
 }
+
 allprojects {
     repositories {
         google()
@@ -34,6 +35,13 @@ publishing {//然后进行发布配置
             groupId = 'com.shubao' //插件包名，在此插件被引用的时候必须写成一摸一样
             artifactId = 'shubao-build-gradle-plugin' //插件名，在此插件被引用的时候必须写成一摸一样
             version = '1.0.0'//插件版本号
+        }
+    }
+
+    repositories {
+        maven {
+            // 生成的插件位置
+            url = uri('../repo')
         }
     }
 }
